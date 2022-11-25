@@ -6,6 +6,11 @@ import Details from './pages/Details/Details';
 import FavoritePage from './components/Favorite/FavoritePage';
 import Header from './layout/Header/Header';
 import Products from './pages/Products/Products';
+import Signup from './components/Sign/Signup';
+import Signin from './components/Sign/Signin';
+import { AuthContextProvider } from './components/Context/AuthContext';
+
+
 
 
 function App() {
@@ -15,13 +20,17 @@ function App() {
     { path: '/favorite', element: <FavoritePage /> },
     { path: '/basket', element: <Basket /> },
     { path: '*', element: <Navigate to={'/'} /> },
+    { path: '/signup', element: <Signup /> },
+    { path: '/signin', element: <Signin /> },
   ])
   return (
     <ContextProvider>
-      <ContextFilter>
-        <Header />
-        {router}
-      </ContextFilter>
+      <AuthContextProvider>
+        <ContextFilter>     
+          <Header />
+          {router}        
+        </ContextFilter>
+      </AuthContextProvider>   
     </ContextProvider>
   );
 }

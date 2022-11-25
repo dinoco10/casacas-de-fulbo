@@ -8,6 +8,9 @@ import Offer from "./Offer";
 import OfferBadge from "./OfferBadge";
 import SendProducts from "./SendProducts";
 
+
+
+
 export default function Basket() {
   const { state } = useContext(ProductContext);
   const { dispath } = useContext(ProductDispath);
@@ -58,7 +61,7 @@ export default function Basket() {
               <span>Total</span>
               <span>{state.totalPriceFainal.toLocaleString()}  Pesos </span>
             </div>
-            <button className="basket_button_buy">Proceder al Checkout</button>
+            <Link to ="/Signup" className = "btn btn-secondary">Proceder al Checkout</Link>>
             <button
               onClick={() => dispath({ type: "EMPTY_BASKET" })}
               className="basket_button_remove"

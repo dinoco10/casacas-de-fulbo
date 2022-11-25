@@ -5,7 +5,8 @@ let allProducts = [{
     price: 10000,
     count: 1,
     isInterest: false,
-    category: 'Argentina'
+    category: 'Argentina',
+    stock: 50
 },
 {
     id: 2,
@@ -14,7 +15,8 @@ let allProducts = [{
     price: 13000,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 3,
@@ -23,7 +25,8 @@ let allProducts = [{
     price: 15000,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 4,
@@ -32,7 +35,8 @@ let allProducts = [{
     price: 12500,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 5,
@@ -41,7 +45,8 @@ let allProducts = [{
     price: 8500,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 7,
@@ -50,7 +55,8 @@ let allProducts = [{
     price: 12000,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 8,
@@ -59,7 +65,8 @@ let allProducts = [{
     price: 8000,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 9,
@@ -77,7 +84,8 @@ let allProducts = [{
     price: 16500,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 {
     id: 11,
@@ -86,7 +94,8 @@ let allProducts = [{
     price: 7000,
     count: 1,
     isInterest: false,
-    category: 'RestoDMundo'
+    category: 'RestoDMundo',
+    stock: 50
 },
 ]
 
